@@ -31,7 +31,7 @@ create and automate a script to create a new user, add them to a group, create a
 # How I expected the challenge to go.
 I planned the script on a notepad last night, I discussed with a friend (though I ensured not to get any answers from them as they actually do code in their job) and decided that I had a good skeleton to start from. I knew I'd run into errors but I knew I could only solve them through running the script and bugfixing.
 # What went well?
-getting th script to write a script! I was pleased with how smooth that went.
+getting the script to write a script! I was pleased with how smooth that went. I'm pleased with myself that I worked out a good way to debug was to run echo commands so that I could track where specifically in the script my errors were happening. I've left them in which makes it a little messy, but it fulfils the brief.
 # What didn't go as planned?
 user creation, I was frustrated that I could not skip the data entry mandated, I will look into skipping that this afternoon but the current code fulfills the brief.
 The largest frustraton was that the user would login, then not run the code and sit waiting for input. I would have to exit out of the user for the code to continue execution but it would fail and complain that I had no perms (as intended) In the end I found the solution was to ask Bash to execute the code *as* the new user within the current script environment. This was not what I expected and took quite a bit of research.
